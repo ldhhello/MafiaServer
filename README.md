@@ -4,6 +4,7 @@
 
 # 2021년 당시 작동 사진
 ![시연 이미지](https://raw.githubusercontent.com/ldhhello/MafiaServer/main/Screenshot_20210131-140402_Mafia.jpg)
+(전송 버튼 저거 저렇게 쓰면 안 되는 이미지 같은데,, 배포 안 했으니까 용서해 주세요)
 
 # 뭐를 써서 만들었나요?
 - C++ STL과 Boost.Asio를 베이스로 만들었고, 그 외 다른 라이브러리는 크게 사용하지 않았습니다.
