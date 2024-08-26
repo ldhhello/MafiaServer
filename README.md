@@ -2,6 +2,8 @@
 - 이 코드는 2021년 푸릇푸릇한 중3때의 제가 모 마피아 게임에 영감을 받아 코딩 연습 차원에서 만들어 본 마피아 게임입니다.
 - 클라이언트 코드는 나중에 올려보도록 하겠습니다.
 
+# 2021년 당시 작동 사진
+![시연 이미지](https://raw.githubusercontent.com/ldhhello/MafiaServer/main/Screenshot_20210131-140402_Mafia.jpg)
 
 # 뭐를 써서 만들었나요?
 - C++ STL과 Boost.Asio를 베이스로 만들었고, 그 외 다른 라이브러리는 크게 사용하지 않았습니다.
