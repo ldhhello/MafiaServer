@@ -1,0 +1,120 @@
+#pragma once
+
+// صباح الخير
+
+enum Strings
+{
+	STRING_ROOM_SIZE_IS_INVALID = 0,
+	STRING_NICKNAME_ALREADY_EXISTS = 1,
+	STRING_PLAYER_JOINED = 2,
+	STRING_PLAYER_LEFT = 3,
+	STRING_ROOM_DOES_NOT_EXIST = 4,
+	STRING_ROOM_IS_FULL = 5,
+	STRING_MODERATOR_CHANGED = 6,
+	STRING_PLAYER_NOT_ENOUGH = 7,
+	STRING_YOUR_JOB = 8,
+	STRING_TIME_HAS_COME = 9,
+	STRING_CANT_REPORT_FIRST_DAY = 16,
+	STRING_INVALID_NICKNAME = 17,
+	STRING_INVALID_PASSWORD = 19,
+	STRING_DIRTY_WORD_NICKNAME = 20
+};
+
+//const string strings[] = {
+//	"방 크기가 너무 크거나 작습니다. 4~8 사이의 수를 입력해주세요.", 
+//	"입력한 닉네임이 이미 존재합니다. 다른 닉네임을 사용해주세요.",
+//	"%s님이 입장하셨습니다.",
+//	"%s님이 퇴장하셨습니다.",
+//	"방이 존재하지 않습니다.",
+//	"방이 꽉 찼습니다.",
+//	"%s님이 방장이 되었습니다.",
+//	"4인 이상일 때 게임을 시작할 수 있습니다.",
+//	"당신의 직업은 %s입니다!",
+//	"%s이 되었습니다.",
+//	"",
+//	"",
+//	"",
+//	"",
+//	"",
+//	"",
+//	"첫 번째 밤에는 취재할 수 없습니다.",
+//	"잘못된 닉네임입니다. 닉네임은 1~6자리 숫자/영어/한글로 만들어야 합니다.",
+//	"",
+//	"잘못된 비밀번호입니다. 다시 입력해주세요."
+//};
+
+enum SkillStrings
+{
+	SKILL_MAFIA_KILL,
+	SKILL_NOTHING_HAPPENED,
+	SKILL_CAUGHT_MAFIA,
+	SKILL_NO_MAFIA,
+	SKILL_DOCTOR_HEAL,
+	SKILL_SEONGBUL,
+	SKILL_GOT_SEONGBULLED, 
+	SKILL_HEADLINE,
+	SKILL_HEADLINE_FAILED,
+	SKILL_SOLDIER_BLOCK,
+	SKILL_GANGSTER_THREATEN,
+	SKILL_GOT_THREATENED,
+	SKILL_GRAVE_ROB,
+	SKILL_GOT_ROBBED,
+	SKILL_POLITICIAN,
+	SKILL_JOB,
+	SKILL_CONNECT,
+	SKILL_EATEN_BY_BEAST,
+	SKILL_REVIVE, // 이거 과학자에도 써야돼서 priest 뗐음
+	SKILL_REVIVE_FAILED,
+	SKILL_TERRORIST_MAFIA_EXPLODE,
+	SKILL_TERRORIST_VOTE_EXPLODE,
+	SKILL_GOT_TEMPTED,
+	SKILL_MADAM_TEMPT,
+	SKILL_THIEF_STEAL_SOLDIER,
+	SKILL_THIEF_STEAL,
+	SKILL_SOLDIER_BLOCK_THIEF,
+	SKILL_DETECTIVE,
+	SKILL_CULT_RECRUIT,
+	SKILL_CULT_RECRUIT_FAILED,
+	SKILL_PRIEST_BLOCK_CULT,
+	SKILL_COUPLE_SACRIFICE,
+	SKILL_SOLDIER_BLOCK_SPY,
+	SKILL_SPY_GOT_DISCOVERED,
+    SKILL_BECAME_FROG,
+    SKILL_PROPHET_WIN,
+    SKILL_JUDGE,
+    SKILL_NURSE_CONNECT_DOCTOR,
+    SKILL_DOCTOR_CONNECT_NURSE,
+    SKILL_GOT_CULTED,
+    SKILL_CULT_RINGS
+};
+
+//const string skill_strings[] = {
+//	"%s님이 살해당했습니다.",
+//	"밤동안 아무 일도 일어나지 않았습니다.",
+//	"%s님은 마피아입니다!",
+//	"%s님은 마피아가 아닙니다.",
+//	"%s님이 의사의 치료를 받고 살아났습니다!",
+//	"성불 결과 %s님은 %s입니다!",
+//	"영매에게 성불당했습니다.",
+//	"특종입니다! %s님이 %s (이)라는 소식입니다!",
+//	"취재에 실패했습니다.",
+//	"군인 %s님이 공격을 버텨냈습니다!",
+//	"%s님에게 위협을 가했습니다.",
+//	"의문의 괴한에게 협박을 당했습니다.",
+//	"%s 직업을 획득했습니다!",
+//	"도굴꾼에게 도굴당해 %s이 되었습니다.",
+//	"%s은 투표로 죽지 않습니다.", // 이거 도둑이 훔치는거 대비해서 이렇게 함)
+//	"%s님의 직업은 %s입니다!",
+//	"접선했습니다.",
+//	"%s님이 짐승에게 습격당했습니다.",
+//	"%s님이 부활했습니다!",
+//	"부활에 실패했습니다.",
+//	"테러리스트 %s님이 마피아 %s님을 습격했습니다!",
+//	"테러리스트 %s님이 %s님과 함께 자폭했습니다!",
+//  "다른 플레이어에게 유혹당했습니다!",
+//  "플레이어 %s님을 유혹했습니다.",
+//  "훔치는 데 실패했습니다!",
+//  "%s님의 직업 %s (을)를 훔쳤습니다!",
+//  "도둑 %s님이 당신의 직업을 훔치려고 시도했습니다!",
+//  "%s님을 조사합니다."
+//};

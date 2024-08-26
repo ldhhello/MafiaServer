@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82878522A73654200E9CF58 /* RandomEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82878512A73654200E9CF58 /* RandomEngine.cpp */; };
+		D84F6244293F162200B4F60A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6243293F162200B4F60A /* main.cpp */; };
+		D84F626D293F172300B4F60A /* Session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F624C293F172200B4F60A /* Session.cpp */; };
+		D84F626E293F172300B4F60A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F624D293F172200B4F60A /* Timer.cpp */; };
+		D84F626F293F172300B4F60A /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F624E293F172200B4F60A /* Game.cpp */; };
+		D84F6270293F172300B4F60A /* Packet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6250293F172200B4F60A /* Packet.cpp */; };
+		D84F6271293F172300B4F60A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6253293F172200B4F60A /* Player.cpp */; };
+		D84F6272293F172300B4F60A /* Job.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6256293F172200B4F60A /* Job.cpp */; };
+		D84F6273293F172300B4F60A /* Skill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F625A293F172200B4F60A /* Skill.cpp */; };
+		D84F6274293F172300B4F60A /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F625E293F172300B4F60A /* Utils.cpp */; };
+		D84F6275293F172300B4F60A /* Forwarder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F625F293F172300B4F60A /* Forwarder.cpp */; };
+		D84F6276293F172300B4F60A /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6262293F172300B4F60A /* Room.cpp */; };
+		D84F6277293F172300B4F60A /* Acceptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6266293F172300B4F60A /* Acceptor.cpp */; };
+		D84F6278293F172300B4F60A /* MafiaSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6267293F172300B4F60A /* MafiaSocket.cpp */; };
+		D84F6279293F172300B4F60A /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6268293F172300B4F60A /* Server.cpp */; };
+		D84F627A293F172300B4F60A /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84F6269293F172300B4F60A /* Logger.cpp */; };
+		D8ABC9EF29A47F4200AE0E13 /* ChatFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8ABC9EE29A47F4200AE0E13 /* ChatFilter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D84F623E293F162200B4F60A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D82878502A73652F00E9CF58 /* RandomEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomEngine.h; sourceTree = "<group>"; };
+		D82878512A73654200E9CF58 /* RandomEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomEngine.cpp; sourceTree = "<group>"; };
+		D84F6240293F162200B4F60A /* MafiaServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MafiaServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84F6243293F162200B4F60A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D84F624C293F172200B4F60A /* Session.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Session.cpp; sourceTree = "<group>"; };
+		D84F624D293F172200B4F60A /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		D84F624E293F172200B4F60A /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		D84F624F293F172200B4F60A /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		D84F6250293F172200B4F60A /* Packet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Packet.cpp; sourceTree = "<group>"; };
+		D84F6251293F172200B4F60A /* MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageQueue.h; sourceTree = "<group>"; };
+		D84F6252293F172200B4F60A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D84F6253293F172200B4F60A /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		D84F6254293F172200B4F60A /* Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		D84F6255293F172200B4F60A /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		D84F6256293F172200B4F60A /* Job.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Job.cpp; sourceTree = "<group>"; };
+		D84F6257293F172200B4F60A /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		D84F6258293F172200B4F60A /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		D84F6259293F172200B4F60A /* Acceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acceptor.h; sourceTree = "<group>"; };
+		D84F625A293F172200B4F60A /* Skill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Skill.cpp; sourceTree = "<group>"; };
+		D84F625B293F172200B4F60A /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		D84F625C293F172200B4F60A /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		D84F625D293F172200B4F60A /* MafiaSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaSocket.h; sourceTree = "<group>"; };
+		D84F625E293F172300B4F60A /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		D84F625F293F172300B4F60A /* Forwarder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Forwarder.cpp; sourceTree = "<group>"; };
+		D84F6260293F172300B4F60A /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		D84F6261293F172300B4F60A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		D84F6262293F172300B4F60A /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		D84F6263293F172300B4F60A /* Forwarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forwarder.h; sourceTree = "<group>"; };
+		D84F6264293F172300B4F60A /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
+		D84F6265293F172300B4F60A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D84F6266293F172300B4F60A /* Acceptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Acceptor.cpp; sourceTree = "<group>"; };
+		D84F6267293F172300B4F60A /* MafiaSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MafiaSocket.cpp; sourceTree = "<group>"; };
+		D84F6268293F172300B4F60A /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+		D84F6269293F172300B4F60A /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		D84F626A293F172300B4F60A /* ChatFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatFilter.h; sourceTree = "<group>"; };
+		D84F626B293F172300B4F60A /* Include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Include.h; sourceTree = "<group>"; };
+		D8839EAB2948716F0076CF0E /* Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method.h; sourceTree = "<group>"; };
+		D8ABC9EE29A47F4200AE0E13 /* ChatFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChatFilter.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D84F623D293F162200B4F60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D84F6237293F162200B4F60A = {
+			isa = PBXGroup;
+			children = (
+				D84F6242293F162200B4F60A /* MafiaServer */,
+				D84F6241293F162200B4F60A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D84F6241293F162200B4F60A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D84F6240293F162200B4F60A /* MafiaServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D84F6242293F162200B4F60A /* MafiaServer */ = {
+			isa = PBXGroup;
+			children = (
+				D8839EAB2948716F0076CF0E /* Method.h */,
+				D84F6266293F172300B4F60A /* Acceptor.cpp */,
+				D84F6259293F172200B4F60A /* Acceptor.h */,
+				D8ABC9EE29A47F4200AE0E13 /* ChatFilter.cpp */,
+				D84F626A293F172300B4F60A /* ChatFilter.h */,
+				D84F625F293F172300B4F60A /* Forwarder.cpp */,
+				D84F6263293F172300B4F60A /* Forwarder.h */,
+				D84F624E293F172200B4F60A /* Game.cpp */,
+				D84F6261293F172300B4F60A /* Game.h */,
+				D84F626B293F172300B4F60A /* Include.h */,
+				D84F6256293F172200B4F60A /* Job.cpp */,
+				D84F6257293F172200B4F60A /* Job.h */,
+				D84F6269293F172300B4F60A /* Logger.cpp */,
+				D84F6260293F172300B4F60A /* Logger.h */,
+				D84F6267293F172300B4F60A /* MafiaSocket.cpp */,
+				D84F625D293F172200B4F60A /* MafiaSocket.h */,
+				D84F6251293F172200B4F60A /* MessageQueue.h */,
+				D84F6250293F172200B4F60A /* Packet.cpp */,
+				D84F6254293F172200B4F60A /* Packet.h */,
+				D84F6253293F172200B4F60A /* Player.cpp */,
+				D84F6265293F172300B4F60A /* Player.h */,
+				D84F6262293F172300B4F60A /* Room.cpp */,
+				D84F6255293F172200B4F60A /* Room.h */,
+				D84F6268293F172300B4F60A /* Server.cpp */,
+				D84F6258293F172200B4F60A /* Server.h */,
+				D84F624C293F172200B4F60A /* Session.cpp */,
+				D84F625C293F172200B4F60A /* Session.h */,
+				D84F625A293F172200B4F60A /* Skill.cpp */,
+				D84F625B293F172200B4F60A /* Skill.h */,
+				D84F6264293F172300B4F60A /* Strings.h */,
+				D84F624D293F172200B4F60A /* Timer.cpp */,
+				D84F624F293F172200B4F60A /* Timer.h */,
+				D84F625E293F172300B4F60A /* Utils.cpp */,
+				D84F6252293F172200B4F60A /* Utils.h */,
+				D84F6243293F162200B4F60A /* main.cpp */,
+				D82878502A73652F00E9CF58 /* RandomEngine.h */,
+				D82878512A73654200E9CF58 /* RandomEngine.cpp */,
+			);
+			path = MafiaServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D84F623F293F162200B4F60A /* MafiaServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84F6247293F162200B4F60A /* Build configuration list for PBXNativeTarget "MafiaServer" */;
+			buildPhases = (
+				D84F623C293F162200B4F60A /* Sources */,
+				D84F623D293F162200B4F60A /* Frameworks */,
+				D84F623E293F162200B4F60A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MafiaServer;
+			productName = MafiaServer;
+			productReference = D84F6240293F162200B4F60A /* MafiaServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D84F6238293F162200B4F60A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D84F623F293F162200B4F60A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D84F623B293F162200B4F60A /* Build configuration list for PBXProject "MafiaServer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D84F6237293F162200B4F60A;
+			productRefGroup = D84F6241293F162200B4F60A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D84F623F293F162200B4F60A /* MafiaServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D84F623C293F162200B4F60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84F6244293F162200B4F60A /* main.cpp in Sources */,
+				D84F6275293F172300B4F60A /* Forwarder.cpp in Sources */,
+				D82878522A73654200E9CF58 /* RandomEngine.cpp in Sources */,
+				D84F6271293F172300B4F60A /* Player.cpp in Sources */,
+				D84F6277293F172300B4F60A /* Acceptor.cpp in Sources */,
+				D84F626D293F172300B4F60A /* Session.cpp in Sources */,
+				D8ABC9EF29A47F4200AE0E13 /* ChatFilter.cpp in Sources */,
+				D84F6274293F172300B4F60A /* Utils.cpp in Sources */,
+				D84F6272293F172300B4F60A /* Job.cpp in Sources */,
+				D84F6279293F172300B4F60A /* Server.cpp in Sources */,
+				D84F6276293F172300B4F60A /* Room.cpp in Sources */,
+				D84F6278293F172300B4F60A /* MafiaSocket.cpp in Sources */,
+				D84F627A293F172300B4F60A /* Logger.cpp in Sources */,
+				D84F6270293F172300B4F60A /* Packet.cpp in Sources */,
+				D84F626E293F172300B4F60A /* Timer.cpp in Sources */,
+				D84F626F293F172300B4F60A /* Game.cpp in Sources */,
+				D84F6273293F172300B4F60A /* Skill.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D84F6245293F162200B4F60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D84F6246293F162200B4F60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D84F6248293F162200B4F60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/boost/1.81.0_1/include,
+					"/opt/homebrew/Cellar/openssl@3/3.0.5/include",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/boost/1.81.0_1/lib,
+					"/opt/homebrew/Cellar/openssl@3/3.0.5/lib",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+					"-lboost_system",
+					"-pthread",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D84F6249293F162200B4F60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/boost/1.81.0_1/include,
+					"/opt/homebrew/Cellar/openssl@3/3.0.5/include",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/boost/1.81.0_1/lib,
+					"/opt/homebrew/Cellar/openssl@3/3.0.5/lib",
+					/usr/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+					"-lboost_system",
+					"-pthread",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D84F623B293F162200B4F60A /* Build configuration list for PBXProject "MafiaServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84F6245293F162200B4F60A /* Debug */,
+				D84F6246293F162200B4F60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84F6247293F162200B4F60A /* Build configuration list for PBXNativeTarget "MafiaServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84F6248293F162200B4F60A /* Debug */,
+				D84F6249293F162200B4F60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D84F6238293F162200B4F60A /* Project object */;
+}
